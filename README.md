@@ -30,13 +30,16 @@ this project was done using pennylane. To run the code, you need to install penn
 python -m venv pennylane_env
 .\pennylane_env\Scripts\activate
 pip install pennylane
+pip install jupyter
 jupyter notebook QSOF.ipynb
 ```
 
 ### linux
-```
+```bash
 python -m venv pennylane_env
 source pennylane_env/bin/activate
 pip install pennylane
+pip install jupyter
 jupyter notebook QSOF.ipynb
 ```
+
