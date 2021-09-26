@@ -25,10 +25,18 @@ What would happen if you provided a different state?
 ## making things work
 this project was done using pennylane. To run the code, you need to install pennylane.
 
+### Windows
+```powershell
+python -m venv pennylane_env
+.\pennylane_env\Scripts\activate
+pip install pennylane
+jupyter notebook QSOF.ipynb
+```
+
+### linux
 ```
 python -m venv pennylane_env
-```
-
-```
-
+source pennylane_env/bin/activate
+pip install pennylane
+jupyter notebook QSOF.ipynb
 ```
