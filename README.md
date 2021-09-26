@@ -11,30 +11,32 @@ Create and train a variational circuit that transforms input states into predefi
 - if random state 4 is provided, it returns state |1100>
 
 
-## Random States Selected and transitions
-
-$$ |0100\rangle \longrightarrow |0011\rangle $$
 <center>
-<img src="output 0100.png">
-</center>
-$$ |0110\rangle \longrightarrow |0101\rangle $$
-<center>
-<img src="output 0110.png">
+<img src="states.png">
 </center>
 
-$$ |0010\rangle \longrightarrow |1010\rangle $$
-<center>
-<img src="output 0010.png">
-</center>
 
-$$ |1010\rangle \longrightarrow |1100\rangle $$
-<center>
-<img src="output 1010.png">
-</center>
-*where every Quadrant represents a state of the qubit.*
-</br>
-<center>
-<img src="frame.png"> 
-</center>
 
 What would happen if you provided a different state?
+
+
+<hr>
+
+## making things work
+this project was done using pennylane. To run the code, you need to install pennylane.
+
+### Windows
+```powershell
+python -m venv pennylane_env
+.\pennylane_env\Scripts\activate
+pip install pennylane
+jupyter notebook QSOF.ipynb
+```
+
+### linux
+```
+python -m venv pennylane_env
+source pennylane_env/bin/activate
+pip install pennylane
+jupyter notebook QSOF.ipynb
+```
