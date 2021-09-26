@@ -17,20 +17,22 @@ $$ |0100\rangle \longrightarrow |0011\rangle $$
 <center>
 <img src="output 0100.png">
 </center>
+
 $$ |0110\rangle \longrightarrow |0101\rangle $$
 <center>
 <img src="output 0110.png">
 </center>
 
-$$ |0010\rangle \longrightarrow |1010\rangle $$
+$$ |1000\rangle \longrightarrow |1010\rangle $$
 <center>
-<img src="output 0010.png">
+<img src="output 1000.png">
 </center>
 
 $$ |1010\rangle \longrightarrow |1100\rangle $$
 <center>
 <img src="output 1010.png">
 </center>
+
 *where every Quadrant represents a state of the qubit.*
 </br>
 <center>
